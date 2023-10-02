@@ -14,6 +14,5 @@ Este espacio es creado para agregar varios scripts que he generado en Python y q
     número de empleado debe terminar con los dos últimos dígitos iguales
     (0000, 0011, 0022, 0033, ..., 0100)
 
-* ExtraccionAulas <- El objetivo de este script es extraer informacion de BD en Mysql usando Python, especificamente la libreria de pymysql, ademas uso la libreria de         
-  concurrent.futures, esta libreria me sirve para generar las consultas en 10 esquemas(BD) al mismo tiempo, asi se reduce el tiempo de extracción, ocupo dos modulos, en los      cuales   estoy detallando la conexion a esas BD y las consultas que aplico para extraer esa información.
+* ExtraccionAulas <- El objetivo de este script es extraer informacion de BD en Mysql usando Python, especificamente la libreria de pymysql, ademas uso la libreria de              concurrent.futures, esta libreria me sirve para generar las consultas en 10 esquemas(BD) al mismo tiempo, asi se reduce el tiempo de extracción, ocupo dos modulos, en los      cuales   estoy detallando la conexion a esas BD y las consultas que aplico para extraer esa información.
   

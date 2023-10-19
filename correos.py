@@ -11,7 +11,7 @@ def send_email_with_attachment(receiver_email, subject, body, attachment_path):
     :param attachment_path: Ruta del archivo a adjuntar.
     """
     # credenciales de correo
-    yag = yagmail.SMTP(user='direccion_academica@utel.mx', password='3ef8uttoz2QE', host='smtp.utel.mx', port=465)
+    yag = yagmail.SMTP(user='correo@dominio', password='pass', host='smtp.dominio.dominio', port=465)
     
     # Enviar el correo
     yag.send(

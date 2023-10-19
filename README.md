@@ -16,7 +16,10 @@ Este espacio es creado para agregar varios scripts que he generado en Python y q
 
 * ExtraccionAulas <- El objetivo de este script es extraer informacion de BD en Mysql usando Python, especificamente la libreria de pymysql, ademas uso la libreria de              concurrent.futures, esta libreria me sirve para generar las consultas en 10 esquemas(BD) al mismo tiempo, asi se reduce el tiempo de extracción, ocupo dos modulos, en los      cuales   estoy detallando la conexion a esas BD y las consultas que aplico para extraer esa información.
 
-* Cedulasprofesionales (Web Scraping con Selenium) <- Este código automatiza un proceso de búsqueda de cédulas profesionales en la pagina oficial de la sep . Para cada cédula presente en un archivo CSV, navega a la página, busca la cédula, extrae detalles y guarda esta información en otro archivo CSV llamado detalles.csv. Este ejemplo de web scraping, me es muy util ya que con esto puedo validar la cedula que nos comparte el docente es correcta. 
+* Cedulasprofesionales (Web Scraping con Selenium) <- Este código automatiza un proceso de búsqueda de cédulas profesionales en la pagina oficial de la sep . Para cada cédula presente en un archivo CSV, navega a la página, busca la cédula, extrae detalles y guarda esta información en otro archivo CSV llamado detalles.csv. Este ejemplo de web scraping, me es muy util ya que con esto puedo validar la cedula que nos comparte el docente es correcta.
+
+* Correos <- Este codigo lo uso para enviar comunicados personalizados a cada docente, aparte de agregar un mensaje, adjunto un archivo, esto esde gran utilidad ya que disminuye el tiempo de envio de correos masivos a los docentes.
+  
 
 
 

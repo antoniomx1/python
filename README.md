@@ -56,3 +56,6 @@ Este espacio ha sido creado para compartir varios scripts en Python que me han f
 
 ### Librerías Utilizadas:
 - selenium
+- shutil
+- os
+- time

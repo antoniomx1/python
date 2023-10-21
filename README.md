@@ -1,8 +1,8 @@
-​# Python Scripts Útiles
+# Python Scripts Útiles
 
 Este espacio ha sido creado para compartir varios scripts en Python que me han facilitado las tareas diarias como Analista de Datos.
 
-​## InsercionDatos.py
+## InsercionDatos.py
 **Objetivo:** Generar e insertar datos aleatorios en una base de datos SQLite.
 
 ### Características Principales:
@@ -15,7 +15,7 @@ Este espacio ha sido creado para compartir varios scripts en Python que me han f
 - string
 - sqlite3
 
-​## ExtraccionAulas.py
+## ExtraccionAulas.py
 **Objetivo:** Extraer información de diversas bases de datos en MySQL.
 
 ### Características Principales:
@@ -25,7 +25,7 @@ Este espacio ha sido creado para compartir varios scripts en Python que me han f
 - pymysql
 - concurrent.futures
 
-​## Cedulasprofesionales (Web Scraping con Selenium)
+## Cedulasprofesionales (Web Scraping con Selenium)
 **Objetivo:** Automatizar la búsqueda y extracción de cédulas profesionales en el sitio oficial de la SEP.
 
 ### Características Principales:
@@ -36,7 +36,7 @@ Este espacio ha sido creado para compartir varios scripts en Python que me han f
 ### Librerías Utilizadas:
 - selenium
 
-​## Correos.py
+## Correos.py
 **Objetivo:** Automatizar el envío de comunicados personalizados a docentes.
 
 ### Características Principales:
@@ -47,7 +47,7 @@ Este espacio ha sido creado para compartir varios scripts en Python que me han f
 - pandas
 - yagmail
 
-​## DescargaPythonSelenium.py
+## DescargaPythonSelenium.py
 **Objetivo:** Descargar reportes en CSV usando Selenium.
 
 ### Características Principales:

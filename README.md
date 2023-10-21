@@ -30,7 +30,7 @@ Objetivo: Automatizar el envío de comunicados personalizados a docentes.
 Características Principales:
 Envía mensajes con un archivo adjunto a cada docente.
 Optimiza el proceso de envío masivo de correos.
-Librerías Utilizadas: No especificadas.
+Librerías Utilizadas: Pandas,yagmail.
 
 * DescargaPythonSelenium.py:
 Objetivo: Descargar reportes en CSV usando Selenium.

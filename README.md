@@ -1,24 +1,42 @@
-# python
-Este espacio es creado para agregar varios scripts que he generado en Python y que me han ayudado en mi dia a dia como Data Analyst
+Python Scripts Útiles
+Este espacio ha sido creado para compartir varios scripts en Python que me han facilitado las tareas diarias como Analista de Datos:
 
-* InsercionDatos.py <- En este ejercicio uso las librerias de random,string, y sqlite3. Lo que hice fue genrar datos al azar apartir de listas (Nombres y Apellidos), para el       campo RFC debia ser llenado por medio de una funcion que respete las reglas de como esta constituido un RFC (Registro Federal de Contribuyentes) que son:
-    4 caracteres,6 numeros y 3 caracteres, es importante que los números sean consistentes con una fecha valida.
-    Use funciones para generar los campos de acuerdo a la solicitud, me refiero a que para el RFC, cree tres campos el primero es el año el cual tiene un rango de 60 a 98,         para los siguientes campos fue pues el rango de 1 a 12 ya que era le mes y para día utilice el rango de 1 a 30, en estos use una función extra para que me colocara el 0 a      la izquierda si aplicaba. Después por medio de la librería sqlite3, inserte los datos a la bd, en una tabla que ya había creado. Para el campo numero de empleado se            requeria por medio de una función que reciba el
-    último número de empleado y cumpla las siguientes reglas:
-    Debe ser de 10 caracteres el número de empleado
-    Los primeros 4 dígitos son del año de ingreso (genera aleatorios del 2010 al
-    2023)
-    Los siguientes 2 dígitos corresponden al identificador de área (en caso de
-    que el identificador sea de un carácter rellena con ceros a la izquierda)
-    Los siguientes 4 dígitos es un contador que comienza en 0000 y el siguiente
-    número de empleado debe terminar con los dos últimos dígitos iguales
-    (0000, 0011, 0022, 0033, ..., 0100)
+* InsercionDatos.py:
+Objetivo: Generar e insertar datos aleatorios en una base de datos SQLite.
+Características Principales:
+Generación de datos a partir de listas de nombres y apellidos.
+El campo RFC se compone siguiendo un formato específico (4 caracteres, 6 números, 3 caracteres), asegurando números consistentes con fechas válidas.
+El número de empleado se construye siguiendo una serie de reglas detalladas.
+Librerías Utilizadas: random, string, sqlite3.
 
-* ExtraccionAulas <- El objetivo de este script es extraer informacion de BD en Mysql usando Python, especificamente la libreria de pymysql, ademas uso la libreria de              concurrent.futures, esta libreria me sirve para generar las consultas en 10 esquemas(BD) al mismo tiempo, asi se reduce el tiempo de extracción, ocupo dos modulos, en los      cuales   estoy detallando la conexion a esas BD y las consultas que aplico para extraer esa información.
+* ExtraccionAulas.py:
+Objetivo: Extraer información de diversas bases de datos en MySQL.
+Características Principales:
+Uso concurrente para consultas en 10 esquemas de base de datos simultáneamente, optimizando el tiempo de extracción.
+Librerías Utilizadas: pymysql, concurrent.futures.
 
-* Cedulasprofesionales (Web Scraping con Selenium) <- Este código automatiza un proceso de búsqueda de cédulas profesionales en la pagina oficial de la sep . Para cada cédula presente en un archivo CSV, navega a la página, busca la cédula, extrae detalles y guarda esta información en otro archivo CSV llamado detalles.csv. Este ejemplo de web scraping, me es muy util ya que con esto puedo validar la cedula que nos comparte el docente es correcta.
+* Cedulasprofesionales (Web Scraping con Selenium):
+Objetivo: Automatizar la búsqueda y extracción de cédulas profesionales en el sitio oficial de la SEP.
+Características Principales:
+Navega y busca cédulas específicas en la página.
+Extrae y guarda detalles de cada cédula en un archivo detalles.csv.
+Valida que la cédula proporcionada por un docente sea correcta.
+Librerías Utilizadas: selenium.
 
-* Correos <- Este codigo lo uso para enviar comunicados personalizados a cada docente, aparte de agregar un mensaje, adjunto un archivo, esto esde gran utilidad ya que disminuye el tiempo de envio de correos masivos a los docentes.
+* Correos.py:
+Objetivo: Automatizar el envío de comunicados personalizados a docentes.
+Características Principales:
+Envía mensajes con un archivo adjunto a cada docente.
+Optimiza el proceso de envío masivo de correos.
+Librerías Utilizadas: No especificadas.
+
+* DescargaPythonSelenium.py:
+Objetivo: Descargar reportes en CSV usando Selenium.
+Características Principales:
+Automatiza el proceso de acceso, selección de reportes, aplicación de filtros y descarga de reportes desde un portal específico.
+Una vez descargado el CSV, lo traslada a una ruta específica para análisis posterior.
+Librerías Utilizadas: selenium.
+
   
 
 
